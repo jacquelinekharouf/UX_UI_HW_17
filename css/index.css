@@ -1,39 +1,88 @@
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.inline-block{
+    display: inline-flex;
+    vertical-align: center;
+    padding-inline: 50px;
+    font-size: 19px;
+}
+.flex-container {
+    display: block;
+    flex-direction: row;
+    background-color: #F9F8F6;
+    color: #3B937B;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    height: 90px;
+}
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    color: #3B937B;
+    padding-bottom: 1%;
+    text-align: center;
 }
 div.logo {
     width: 23%;
     padding: 1%;
     text-align: center;
 }
-.navigation {
-    display: inline-block;
-    width: 73%;
+header.navigation {
+    display: row;
+    width: 100%;
     padding: 1%;
     vertical-align: top;
 }
-ul {
-    width: 50%;
-    margin-left: auto;
+.nav {
+    width: 100%;
+    margin: auto;
+    padding-inline: 30px;
+
+}
+section.ul {
+    float: left;
+    padding: 12px;
+    width: 15%;
+    text-align: center;
 
 }
 .heroimg {
-    height: 600px;
-    padding: 25px;
-
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100px;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: 30 auto;
+    vertical-align: center;
+    text-align: left;
+    padding-bottom: 1%;
+}
+.about {
+    text-align: left;
+    color: #3B937B;
+}
+button {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+    color: #F9F8F6 ;
+    background-color:#3B937B;
 }
 
 footer{
-    background-color: #93ac27;
+    background: linear-gradient(to right, #3B937B, #81C181, #86DFEF, #3B937B, #81C181);
+    color: #F9F8F6;
+    border-radius: 10px;
 }
 
-footer.ul{
-    display: inline-block;
-    vertical-align: top;
+footer.ul {
+    display: row;
+    vertical-align: center;
+    padding-right: 50%;
 }
