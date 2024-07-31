@@ -30,6 +30,7 @@ header.navigation {
     justify-content: center;
     box-shadow: 5px 10px #8888881d;
 }
+
 .flex-box {
     display: flex;
     flex-direction: row;
@@ -37,6 +38,7 @@ header.navigation {
     padding-bottom: 1%;
     text-align: center;
 }
+
 .logo {
     display: flex;
 }
@@ -119,12 +121,15 @@ button {
     background-color:#3B937B;
     box-shadow: 5px 10px #888888;
 }
+
 .p2 {
     font-family: 'Bad Script'; font-size: 20px;
 }
+
 li.inline-block {
     vertical-align: baseline;
 }
+
 footer{
     display: flex;
     background: linear-gradient(to right, #3B937B, #81C181, #86DFEF, #3B937B, #81C181);
@@ -141,6 +146,7 @@ footer.ul {
     padding-right: 50%;
     padding-bottom: 50%;
 }
+
 footer.inline-block {
     display: flex;
     padding-top: 1%;
